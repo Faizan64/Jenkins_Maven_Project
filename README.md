@@ -1,6 +1,8 @@
 # Jenkins_Maven_Project
 Deployed a simple java code on Tomcat server using Jenkins and Maven
- ![https://miro.medium.com/v2/resize:fit:828/format:webp/1*c63L9pm_Ty66m0Rh72vSsA.png]
+
+ ![1_c63L9pm_Ty66m0Rh72vSsA](https://github.com/Faizan64/Jenkins_Maven_Project/assets/91891601/ffecc85a-6efc-4abf-9774-f285737e8936)
+
 
 ## Steps
 - Install and configure jenkins with AWS
@@ -10,4 +12,4 @@ Deployed a simple java code on Tomcat server using Jenkins and Maven
 - Integrate Tomcat with Jenkins
 - Build and deploy
 
-- 
+
