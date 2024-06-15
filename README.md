@@ -5,11 +5,22 @@ Deployed a simple java code on Tomcat server using Jenkins and Maven
 
 
 ## Steps
-- Install and configure jenkins with AWS
+- Install and configure Jenkins with AWS
 - Install Maven
-- Use jenkins to install maven plugins
+- Use Jenkins to install maven plugins
 - With AWS ec2 setup the Tomcat sever
 - Integrate Tomcat with Jenkins
 - Build and deploy
+
+- ## 2 EC2 instances for Jenkins and Tomcat 
+
+
+
+## Install and Configure Jenkins
+- Create an ec2 instance and install and configure jenkins in the instance
+- Since java is essential for jenkins first install jdk
+- Documentation to install Jenkins on AWS :https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS.
+- Jenkins uses port 8080 make sure to enable that in the instance and start using Jenkins
+- Start using Jenkins
 
 
