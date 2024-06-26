@@ -17,11 +17,11 @@ Deployed a simple java code on Tomcat server using Jenkins and Maven
 ![ec2 instances](https://github.com/Faizan64/Jenkins_Maven_Project/assets/91891601/86c62ace-9505-42d1-b035-5ce88555d427)
 
 ## Install and Configure Jenkins
-- Create an ec2 instance and install and configure jenkins in the instance
-- Since java is essential for jenkins first install jdk
+- Create an ec2 instance and install and configure Jenkins in the instance
+- Since java is essential for Jenkins first install jdk
 - Documentation to install Jenkins on AWS :https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS.
-- Jenkins uses port 8080 make sure to enable that in the instance and start using Jenkins
-- Install all the plugins and start using jenkins
+- Jenkins uses port 8080 make sure to enable SSH port 8080 in the instance and start using Jenkins
+- Install all the plugins and start using Jenkins
 - 
 
 ![Jenkins dashboard](https://github.com/Faizan64/Jenkins_Maven_Project/assets/91891601/f9f8ec69-d66e-4a8d-aa75-093382c71992)
@@ -30,9 +30,9 @@ Deployed a simple java code on Tomcat server using Jenkins and Maven
 - Install maven on the Jenkins server
 - First download the tar file from https://maven.apache.org/download.cgi unzip the tar file using tar -xvzf file-name
 - In the .bash_profile file give maven and java path and now maven is configured and install in your server
-- Install a maven plugin named maven integration and disable github sourch branch plugin.
+- Install a maven plugin named maven integration and disable github source branch plugin.
 - Maven is configured and Install on to your server
-- Create a maven project Maven_project in jenkins and configure the pipeline by providing your github repo link.
+- Create a maven project Maven_project in Jenkins and configure the pipeline by providing your github repo link.
 
 ## Setup Tomcat Server
 - Launch an ec2 instance. Download the tar file from https://tomcat.apache.org/download-90.cgi and install tomcat server on to your instance
